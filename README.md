@@ -16,6 +16,7 @@ The home route ('/') will return the following instructions if hosted in Heroku 
 ```
 module.exports = '&key=INSERT_KEY_HERE';
 ```
+
 3. Run the app, 'node server.js'
 
 ## Contributors
