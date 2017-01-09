@@ -11,13 +11,14 @@ The home route ('/') will return the following instructions if hosted in Heroku 
 
 ## Installation
 1. Install NodeJS and ExpressJS 'npm install express --save'
-2. Make sure to include a module named 'key.js' with your Google Maps API key in it on the home directory :
+2. Make sure to include a module named 'key.js' with your Google Maps API key in it on the home directory.
+3. Run the app, 'node server.js'
+
+KEY.JS
 
 ```
 module.exports = '&key=INSERT_KEY_HERE';
 ```
-
-3. Run the app, 'node server.js'
 
 ## Contributors
 
